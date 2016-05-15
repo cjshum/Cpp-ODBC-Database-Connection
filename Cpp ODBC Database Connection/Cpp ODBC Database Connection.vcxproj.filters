@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\DBSample\DBSample\Launcher.cpp">
+    <ClCompile Include="Launcher.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\DBSample\DBSample\ODBCConnect.cpp">
+    <ClCompile Include="ODBCConnect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\DBSample\DBSample\ODBCConnect.h">
+    <ClInclude Include="ODBCConnect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

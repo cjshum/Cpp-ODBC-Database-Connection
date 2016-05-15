@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Launcher.cpp" />
+    <ClCompile Include="ODBCConnect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ODBCConnect.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EDCB2EC8-1824-4A5B-B9C9-0A5E9A7151B2}</ProjectGuid>
     <RootNamespace>CppODBCDatabaseConnection</RootNamespace>
@@ -75,6 +82,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -109,13 +119,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\DBSample\DBSample\Launcher.cpp" />
-    <ClCompile Include="..\..\DBSample\DBSample\ODBCConnect.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\DBSample\DBSample\ODBCConnect.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
